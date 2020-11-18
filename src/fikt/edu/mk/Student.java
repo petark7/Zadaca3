@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Student extends Covek
 {
+    // niza od ocenki za Student
     Ocenka[] ocenki = new Ocenka[4];
 
     public Student(int godini, String ime, String prezime) {
@@ -22,7 +23,6 @@ public class Student extends Covek
         {
             if (ocenki[n] == null)
             {
-                System.out.println("n = " + n);
                 ocenki[n] = o;
                 break;
             }

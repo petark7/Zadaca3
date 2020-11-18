@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // TEST:
+        // TEST (kreiraj 5 objekti od tip ocenka i smesti gi vo nizata od ocenki kaj novokereiraniot stuident):
         Student petar = new Student(19, "Petar", "Kuzmanovski");
         Ocenka predmet1 = new Ocenka(7);
         Ocenka predmet2 = new Ocenka(9);
